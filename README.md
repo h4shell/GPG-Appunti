@@ -4,10 +4,10 @@
 ```gpg --full-generate-key```
 
 ### Esportare la chiave pubblica
-```gpg -a --export "nome_chiave" > pub.asc```
+```gpg -a --export "nome_chiave" > pub.gpg```
 
 ### Esportare la chiave privata
-```gpg -a --export-secret-keys "nome_chiave" > priv.asc```
+```gpg -a --export-secret-keys "nome_chiave" > priv.gpg```
 
 ### Elenco di tutte le chiavi presenti nel portachiavi
 ```gpg --list-keys```
