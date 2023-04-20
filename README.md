@@ -1,5 +1,8 @@
 # GPG Appunti
 
+### Generare un file cryptato partendo da una password
+```gpg -a -c nome_file```
+
 ### Generare una coppia di chiavi per la crittografia asimmetrica
 ```gpg --full-generate-key```
 
